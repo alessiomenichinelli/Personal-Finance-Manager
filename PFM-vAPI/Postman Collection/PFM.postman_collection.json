@@ -1,0 +1,557 @@
+{
+	"info": {
+		"_postman_id": "8c63765d-7945-49e2-8dab-0ae221c0bb0e",
+		"name": "PFM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11777638"
+	},
+	"item": [
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Category List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/category/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"category",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Casa\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/category/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"category",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/category/4",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Medicine\",\n    \"id\": 4,\n    \"user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/category/4/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"4",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/category/2/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "Account List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/account",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"personale\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/account/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"account",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/account/1",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"account",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/account/3/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"account",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2,\n    \"name\": \"pippo0\",\n    \"user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/account/2/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"account",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PM",
+			"item": [
+				{
+					"name": "PM List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/pm/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"pm",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PM List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"contanti\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/pm/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"pm",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PM",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/pm/1",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"pm",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PM",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Contanti\",\n    \"id\": 3,\n    \"user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Host}}/api/pm/3/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"pm",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PM",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/pm/4/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"pm",
+								"4",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Expense",
+			"item": [
+				{
+					"name": "Expense List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/expense/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"expense",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Expense",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/expense/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"expense",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Income",
+			"item": [
+				{
+					"name": "Income List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/income/",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"income",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Income",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Host}}/api/income/1",
+							"host": [
+								"{{Host}}"
+							],
+							"path": [
+								"api",
+								"income",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData && jsonData.token) {",
+							"    pm.collectionVariables.set(\"auth_token\", jsonData.token);",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"\",\n    \"password\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Host}}/api/login/",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"api",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "Token {{auth_token}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Host",
+			"value": "http://127.0.0.1:8000/",
+			"type": "string"
+		},
+		{
+			"key": "auth_token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

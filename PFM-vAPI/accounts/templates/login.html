@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+ 
+<h3><strong>Non sei ancora registato?</strong></h3>
+<a href="{% url 'register' %}" class="btn btn-primary">Registrati</a>
+
+<h3><strong>{{title}}</strong></h3>
+ 
+<div>
+<form method="POST" action="" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form.as_p}}
+  <input type="submit" value="{{title}}"/>
+</form>
+</div>
+ 
+{% endblock %}
